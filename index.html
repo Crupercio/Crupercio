@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brainworks Gaming</title>
+    <!--Using internal CSS-->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(236, 226, 178);
+            margin-top: 20px;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-bottom: 50px;
+        }
+        header, footer {
+           
+            text-align: center;
+            padding: 10px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;           
+            border-collapse: collapse;
+            padding: 10px;
+        }
+       
+         h1, h2, h3 {
+            color: orange;
+         }
+         
+         }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        ul, ol {
+            list-style-type: none;
+            margin: 20;
+            padding: 20;
+
+        }
+        li {
+            float: left;
+        }
+        li a {
+            display: inline-block;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 3px solid #000000;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: rgb(236, 226, 178);
+        }
+        tr:nth-child(even) {
+            
+            background-color: rgb(233, 217, 137); /* Light */
+        }
+        tr:nth-child(odd) {
+            background-color: rgb(224, 193, 35); /* Darker */
+            
+        }
+        dt {
+            color: orange;
+        }
+
+        pre{
+            font-size: 8px;
+        }
+        
+    </style>
+
+</head>
+<body>
+   
+    <!-- Header -->
+    <header>
+<div align="right">
+            <img src="./images/Logos" width="100" >
+        </div>
+	<div align="center">
+	<h1>Brainworks Gaming</h1>
+	       
+ 	</div>
+	  	
+    </header>
+    <article>
+    <!-- Personal game interest -->
+    <h2>Personal gaming interest</h2>
+    <p> My passion lies in creating tactical video games that challenge players' strategic thinking and decision-making. I aim to establish my own game development studio called Brainworks Gaming, where I will develop a tactical game inspired by the strategic depth of Pokémon card games, the combo system of Naruto Online, and the class system and grid mechanics of Dofus.</p>
+ <!-- Game Design Concept for future game -->
+  
+    <section>
+    <h3>Game Design Concepts</h3>
+    <dl>
+        <dt>Hero Limit</dt>
+        <dd style="margin-bottom: 10px;">Inspired by the Pokémon card game, my game will feature a hero limit of 6. Each hero will represent a unique chess piece movement, adding a strategic layer to team composition.</dd>
+        
+        <dt>Combo System</dt>
+        <dd style="margin-bottom: 10px;">Drawing from Naruto Online's combo system, attacks from one hero can trigger subsequent attacks from other heroes, creating a chain of strategic moves.</dd>
+        
+        <dt>Elemental and Grid System</dt>
+        <dd>From Dofus, I will integrate an element system (air, earth, fire, water) along with grid-based movement, an action point system, and a detailed stats system to provide depth and tactical variety in gameplay.</dd>
+    </dl>
+    </section>
+    </article>  
+
+    <!-- Projects and Games,images, hyperlinks and link to local files in the same directory-->
+    <div>
+        <h3>Games and Projects</h3>
+        <ul>
+            <div ><li><a href="https://github.com/crupercio"><img src="./images/GitHub.png" width="50" ></a></li></div>
+            <div ><li><a href="./images/GameIdea.jpg">Game Idea</a></li></div>
+            <div ><li><a href="https://www.youtube.com/@brainworksgaming2035"><img src="./images/Youtube.png" width="50" ></a></li></div>
+            <div ><li><a href="https://www.klevernft.com/marketplace/HRE-1PWS">NFT Collection</a></li></div>
+                                   
+        </ul>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+<!-- Table of Courses -->
+    <section>
+        <h3>Game Design Coursework</h3>
+    
+        <table>
+            <tr>
+                <th>Concept</th>
+                <th>Details</th>
+                <th>Image</th>
+            </tr>
+            <tr>
+                <td><strong>Hero Mechanics</strong></td>
+                <td>Design heroes with unique abilities, inspired by Pokémon card game mechanics with a limit of 5 heroes, each representing a chess piece's movement.</td>
+                <td><img src="./images/pokemon_battle.jpg" alt="Hero Mechanics" width="200"></td>
+            </tr>
+            <tr>
+                <td><strong>Combo System</strong></td>
+                <td>Implement a combo system where attacks from one hero can trigger additional attacks from other heroes, similar to Naruto Online's combo mechanics.</td>
+                <td><img src="./images/Naruto_online.png" alt="Combo System" width="200"></td>
+            </tr>
+            <tr>
+                <td><strong>Elemental and Grid System</strong></td>
+                <td>Integrate an element system and grid-based movement from Dofus, including action points and stats management for tactical gameplay.</td>
+                <td><img src="./images/dofus_stats.png" alt="Elemental and Grid System" width="200"></td>
+            </tr>
+            <tr>
+                <td><strong>Chess Mechanics</strong></td>
+                <td>Incorporate chess-like strategic elements where each hero's movement and attack patterns reflect chess pieces, adding depth to tactical decisions.</td>
+                <td><img src="./images/dofus_gameplay.jpg" alt="Chess Mechanics" width="200"></td>
+            </tr>
+      
+        </table>
+    </section>
+
+    
+    <section>
+        <h3>Get in Touch</h3>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <fieldset>
+                <legend>Interests:</legend>
+                <input type="checkbox" id="coding" name="interests" value="coding">
+                <label for="coding">Coding</label><br>
+                <input type="checkbox" id="design" name="interests" value="design">
+                <label for="design">Design</label><br>
+                <input type="checkbox" id="writing" name="interests" value="writing">
+                <label for="writing">Writing</label>
+            </fieldset><br>
+            <label for="region">Region:</label>
+            <select id="country" name="country">
+                <option value="na">North America</option>
+                <option value="sa">South America</option>
+                <option value="as">Asia</option>
+                <option value="af">Africa</option>
+                <option value="eu">Europe</option>
+                <option value="other">Other</option>                
+            </select>
+            <br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+            
+            <br>
+            <br>
+        </form>
+       
+    </section> 
+  
+   <!-- Contact Information -->
+    <section>
+        <h2>Contact Information</h2>
+ 
+        <p>Email: <a href="mailto:e_t_a_n_scros@yahoo.com">e_t_a_n_scros@yahoo.com</a></p>
+    </section>
+    <pre>
+        .----------------.  .----------------.  .----------------.  .----------------.  .-----------------. .----------------.  .----------------.  .----------------.  .----------------.  .----------------. 
+        | .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
+        | |   ______     | || |  _______     | || |      __      | || |     _____    | || | ____  _____  | || | _____  _____ | || |     ____     | || |  _______     | || |  ___  ____   | || |    _______   | |
+        | |  |_   _ \    | || | |_   __ \    | || |     /  \     | || |    |_   _|   | || ||_   \|_   _| | || ||_   _||_   _|| || |   .'    `.   | || | |_   __ \    | || | |_  ||_  _|  | || |   /  ___  |  | |
+        | |    | |_) |   | || |   | |__) |   | || |    / /\ \    | || |      | |     | || |  |   \ | |   | || |  | | /\ | |  | || |  /  .--.  \  | || |   | |__) |   | || |   | |_/ /    | || |  |  (__ \_|  | |
+        | |    |  __'.   | || |   |  __ /    | || |   / ____ \   | || |      | |     | || |  | |\ \| |   | || |  | |/  \| |  | || |  | |    | |  | || |   |  __ /    | || |   |  __'.    | || |   '.___`-.   | |
+        | |   _| |__) |  | || |  _| |  \ \_  | || | _/ /    \ \_ | || |     _| |_    | || | _| |_\   |_  | || |  |   /\   |  | || |  \  `--'  /  | || |  _| |  \ \_  | || |  _| |  \ \_  | || |  |`\____) |  | |
+        | |  |_______/   | || | |____| |___| | || ||____|  |____|| || |    |_____|   | || ||_____|\____| | || |  |__/  \__|  | || |   `.____.'   | || | |____| |___| | || | |____||____| | || |  |_______.'  | |
+        | |              | || |              | || |              | || |              | || |              | || |              | || |              | || |              | || |              | || |              | |
+        | '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |
+         '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------' 
+                                  .----------------.  .----------------.  .----------------.  .----------------.  .-----------------. .----------------.                                                        
+                                 | .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |                                                       
+                                 | |    ______    | || |      __      | || | ____    ____ | || |     _____    | || | ____  _____  | || |    ______    | |                                                       
+                                 | |  .' ___  |   | || |     /  \     | || ||_   \  /   _|| || |    |_   _|   | || ||_   \|_   _| | || |  .' ___  |   | |                                                       
+                                 | | / .'   \_|   | || |    / /\ \    | || |  |   \/   |  | || |      | |     | || |  |   \ | |   | || | / .'   \_|   | |                                                       
+                                 | | | |    ____  | || |   / ____ \   | || |  | |\  /| |  | || |      | |     | || |  | |\ \| |   | || | | |    ____  | |                                                       
+                                 | | \ `.___]  _| | || | _/ /    \ \_ | || | _| |_\/_| |_ | || |     _| |_    | || | _| |_\   |_  | || | \ `.___]  _| | |                                                       
+                                 | |  `._____.'   | || ||____|  |____|| || ||_____||_____|| || |    |_____|   | || ||_____|\____| | || |  `._____.'   | |                                                       
+                                 | |              | || |              | || |              | || |              | || |              | || |              | |                                                       
+                                 | '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |                                                       
+                                  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'      
+                                   </pre>
+    <!-- Footer -->
+    <footer text-align="center">
+        <p>&copy; 2024 Luis F. Cruz Sanchez - Aspiring Game Studio</p>
+	<div align="center">
+            <img src="./images/Logos" width="100" >
+        </div>
+    </footer>
+
+</body>
+</html>
